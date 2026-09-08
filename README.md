@@ -40,11 +40,11 @@ evaluation) immediately.
 1. Download and unzip into `data/raw/`:
    ```bash
    wget https://os.unil.cloud.switch.ch/fma/fma_metadata.zip
-   wget https://os.unil.cloud.switch.ch/fma/fma_medium.zip   # or fma_small.zip for a lighter run
+   wget https://os.unil.cloud.switch.ch/fma/fma_small.zip
    unzip fma_metadata.zip -d data/raw/fma_metadata
-   unzip fma_medium.zip   -d data/raw/fma_medium
+   unzip fma_small.zip   -d data/raw/fma_small
    ```
-2. Check `fma:` in `config.yaml` matches your paths/subset (`small`/`medium`) and
+2. Check `fma:` in `config.yaml` matches your paths/subset (`small`) and
    set `max_tracks` for how many tracks to process on a first run.
 3. Run with `--loader fma`:
    ```bash
