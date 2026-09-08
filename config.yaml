@@ -1,0 +1,66 @@
+# ============================================================
+# GNN-BERT Music Context Understanding - Global Configuration
+# ============================================================
+
+task: 3                      
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  results_dir: "results"
+  checkpoints_dir: "results/checkpoints"
+
+fma:
+  metadata_dir: "data/raw/fma_metadata"     
+  audio_dir: "data/raw/fma_small"           
+  subset: "small"                           
+  max_tracks: 1000                          
+  clip_seconds: 30                          
+  cache_dir: "data/processed/fma_cache"     
+  mel_cache_dir: "data/processed/fma_mel_cache"  
+
+audio:
+  sample_rate: 22050
+  n_mels: 128
+  n_chroma: 12
+  segment_length_sec: 5.0
+  hop_length: 512
+  n_fft: 2048
+  use_beat_sync: false
+  cnn_max_frames: 130           
+
+graph:
+  similarity_threshold: 0.80     
+  graph_type: "segment"          
+
+text:
+  bert_model_name: "distilbert-base-uncased"
+  max_length: 128
+  freeze_bert: false
+
+labels:
+  top_k_tags: 50                 
+
+model:
+  gnn_type: "sage"               
+  gnn_hidden_dim: 128
+  gnn_out_dim: 128
+  gnn_num_layers: 2
+  gnn_dropout: 0.3
+  fusion_hidden_dim: 256
+  contrastive_temperature: 0.07
+
+train:
+  batch_size: 16
+  epochs: 20
+  learning_rate: 2.0e-5
+  gnn_learning_rate: 1.0e-3
+  weight_decay: 1.0e-5
+  alpha_valence: 0.5              
+  beta_arousal: 0.5              
+  seed: 42
+  device: "cuda"                  
+
+eval:
+  k_values: [1, 5, 10]           

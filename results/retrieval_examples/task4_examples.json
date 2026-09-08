@@ -1,0 +1,132 @@
+[
+  {
+    "query_caption": "Introduction and Windmills, Ergo Phizmiz",
+    "top3_matched_track_ids": [
+      "fma_4232",
+      "fma_16337",
+      "fma_5169"
+    ],
+    "top3_scores": [
+      0.7221413850784302,
+      0.5949859023094177,
+      0.5582224130630493
+    ]
+  },
+  {
+    "query_caption": "I'm Not Dreaming, Josh Woodward",
+    "top3_matched_track_ids": [
+      "fma_6802",
+      "fma_11020",
+      "fma_21400"
+    ],
+    "top3_scores": [
+      0.6164439916610718,
+      0.6140249371528625,
+      0.5922532081604004
+    ]
+  },
+  {
+    "query_caption": "2.18.05 dai, BOPD",
+    "top3_matched_track_ids": [
+      "fma_22000",
+      "fma_7491",
+      "fma_3624"
+    ],
+    "top3_scores": [
+      0.6542062163352966,
+      0.6119611859321594,
+      0.5620488524436951
+    ]
+  },
+  {
+    "query_caption": "Hippie Robot Instrumental     {6th Sense, Wildabeast, Jelani, Scheme}, 6th Sense",
+    "top3_matched_track_ids": [
+      "fma_148",
+      "fma_11020",
+      "fma_6776"
+    ],
+    "top3_scores": [
+      0.577936589717865,
+      0.5194194316864014,
+      0.48771098256111145
+    ]
+  },
+  {
+    "query_caption": "Outside To Play, Emily In Love",
+    "top3_matched_track_ids": [
+      "fma_615",
+      "fma_22295",
+      "fma_19441"
+    ],
+    "top3_scores": [
+      0.6704311966896057,
+      0.5761124491691589,
+      0.5703212022781372
+    ]
+  },
+  {
+    "query_caption": "Now Get Busy, Beastie Boys",
+    "top3_matched_track_ids": [
+      "fma_12527",
+      "fma_12513",
+      "fma_11242"
+    ],
+    "top3_scores": [
+      0.4961252510547638,
+      0.4833323061466217,
+      0.48151278495788574
+    ]
+  },
+  {
+    "query_caption": "Algo Pa que te Olvides, Pistolera",
+    "top3_matched_track_ids": [
+      "fma_3266",
+      "fma_20704",
+      "fma_1663"
+    ],
+    "top3_scores": [
+      0.581983745098114,
+      0.5450399518013,
+      0.46363338828086853
+    ]
+  },
+  {
+    "query_caption": "The Uncommon Man, Peter Biedermann",
+    "top3_matched_track_ids": [
+      "fma_814",
+      "fma_3534",
+      "fma_3910"
+    ],
+    "top3_scores": [
+      0.4394422769546509,
+      0.43915674090385437,
+      0.41793373227119446
+    ]
+  },
+  {
+    "query_caption": "Gretchen's Tango, Ergo Phizmiz",
+    "top3_matched_track_ids": [
+      "fma_3909",
+      "fma_11019",
+      "fma_15475"
+    ],
+    "top3_scores": [
+      0.6088325381278992,
+      0.5919063687324524,
+      0.5868598222732544
+    ]
+  },
+  {
+    "query_caption": "Nigerian Delta Oil Well Blues, Bruce Russell",
+    "top3_matched_track_ids": [
+      "fma_4077",
+      "fma_16337",
+      "fma_4232"
+    ],
+    "top3_scores": [
+      0.5938345789909363,
+      0.4618195593357086,
+      0.43689247965812683
+    ]
+  }
+]

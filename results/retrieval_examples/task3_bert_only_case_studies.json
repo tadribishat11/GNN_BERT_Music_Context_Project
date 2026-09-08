@@ -1,0 +1,45 @@
+[
+  {
+    "track_id": "fma_15540",
+    "caption": "Introduction and Windmills, Ergo Phizmiz",
+    "num_graph_nodes": 7,
+    "true_tags": [
+      "Experimental"
+    ],
+    "predicted_tags": [],
+    "predicted_valence": 5.079335689544678,
+    "predicted_arousal": 5.081778049468994,
+    "true_valence": 5.0,
+    "true_arousal": 5.0
+  },
+  {
+    "track_id": "fma_22093",
+    "caption": "I'm Not Dreaming, Josh Woodward",
+    "num_graph_nodes": 7,
+    "true_tags": [
+      "Rock"
+    ],
+    "predicted_tags": [
+      "Folk"
+    ],
+    "predicted_valence": 5.08844518661499,
+    "predicted_arousal": 5.064927577972412,
+    "true_valence": 5.0,
+    "true_arousal": 5.0
+  },
+  {
+    "track_id": "fma_10696",
+    "caption": "2.18.05 dai, BOPD",
+    "num_graph_nodes": 7,
+    "true_tags": [
+      "Hip-Hop"
+    ],
+    "predicted_tags": [
+      "Hip-Hop"
+    ],
+    "predicted_valence": 5.175107479095459,
+    "predicted_arousal": 5.1838226318359375,
+    "true_valence": 5.0,
+    "true_arousal": 5.0
+  }
+]
