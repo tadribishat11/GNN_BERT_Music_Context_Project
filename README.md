@@ -151,7 +151,7 @@ gnn-bert-music-context/
 - This repo implements every algorithm, model, and evaluation metric
   specified in the project PDF (Sections 2, 4, 6, 7) and matches its
   submission file structure (Section 10) exactly.
-- The 100-mark rubric also requires a **written report** (`report/final_report.pdf`,
+- The 100-mark rubric also requires a **written report** (`report/Report.pdf`,
   6-10 pages, NeurIPS/IEEE/ICML template) and a **GitHub submission** —
   both are your deliverables to produce from these results, not generated code.
 - Default hyperparameters (`config.yaml`) are reasonable starting points;
