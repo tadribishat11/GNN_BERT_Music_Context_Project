@@ -1,6 +1,6 @@
 # GNN-Based BERT for Understanding Context from Music
 
-Implementation of the CSE425/EEE474/CSE715 project spec: a hybrid **BERT + Graph
+Implementation of the project spec: a hybrid **BERT + Graph
 Neural Network** system for music context understanding (multi-label tagging,
 emotion regression, cross-modal alignment), covering all four tasks in the
 project roadmap.
@@ -30,12 +30,8 @@ Table 1 of the spec (FMA, MagnaTagATune, GTZAN, DEAM, MusicCaps, MSD, Lakh
 MIDI, EmoMusic — links in the project PDF) into `data/raw/`. This repository
 does not ship any licensed/copyrighted audio.
 
-**No dataset yet?** Every script in this repo runs end-to-end on an in-memory
-**synthetic corpus** (`src/dataset.py: generate_synthetic_corpus`, the default)
-so you can verify the full pipeline (preprocessing -> graphs -> training ->
-evaluation) immediately.
 
-### Using real FMA data (the recommended Medium/Hard pairing)
+### Using real FMA data 
 
 1. Download and unzip into `data/raw/`:
    ```bash
@@ -143,16 +139,10 @@ gnn-bert-music-context/
     plots/
     retrieval_examples/
   report/
-    final_report.pdf   # write-up (NeurIPS/IEEE/ICML template, not generated here)
+    final_report.pdf   # write-up (NeurIPS/IEEE/ICML template)
 ```
 
-## Notes on scope
 
-- This repo implements every algorithm, model, and evaluation metric
-  specified in the project PDF (Sections 2, 4, 6, 7) and matches its
-  submission file structure (Section 10) exactly.
-- The 100-mark rubric also requires a **written report** (`report/Report.pdf`,
-  6-10 pages, NeurIPS/IEEE/ICML template) and a **GitHub submission** —
   both are your deliverables to produce from these results, not generated code.
 - Default hyperparameters (`config.yaml`) are reasonable starting points;
   tune `learning_rate`, `similarity_threshold`, `gnn_hidden_dim`, and
