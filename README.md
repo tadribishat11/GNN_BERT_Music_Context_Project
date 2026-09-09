@@ -142,8 +142,3 @@ gnn-bert-music-context/
     final_report.pdf   # write-up (NeurIPS/IEEE/ICML template)
 ```
 
-
-  both are your deliverables to produce from these results, not generated code.
-- Default hyperparameters (`config.yaml`) are reasonable starting points;
-  tune `learning_rate`, `similarity_threshold`, `gnn_hidden_dim`, and
-  `contrastive_temperature` against your chosen real dataset.
