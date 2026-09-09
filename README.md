@@ -27,7 +27,7 @@ in `config.yaml` at the local cache path.
 
 Download at least one **audio** dataset and one **text/tag** dataset from
 Table 1 of the spec (FMA, MagnaTagATune, GTZAN, DEAM, MusicCaps, MSD, Lakh
-MIDI, EmoMusic — links in the project PDF) into `data/raw/`. This repository
+MIDI, EmoMusic) into `data/raw/`. This repository
 does not ship any licensed/copyrighted audio.
 
 
